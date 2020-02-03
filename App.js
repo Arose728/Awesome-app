@@ -39,7 +39,7 @@ export default class FetchExample extends React.Component {
 
     return(
         <View style={{flex: 1, paddingTop:100}}>
-          {/*<ActivityIndicator size="large" color="#0000ff" />*/}
+          <ActivityIndicator size="large" color="#0000ff" />
           <FlatList
               data={this.state.dataSource}
               renderItem={({item}) => <Text>{item.url}</Text>}
