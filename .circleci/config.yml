@@ -35,3 +35,11 @@ jobs:
 
       # run tests!
       - run: yarn test
+#
+#          - run:
+#              name: jest tests
+#              command: |
+#                mkdir -p test-results/jest
+#                yarn run test
+#              environment:
+#                JEST_JUNIT_OUTPUT: test-results/jest/junit.xml
